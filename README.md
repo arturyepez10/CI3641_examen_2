@@ -30,3 +30,28 @@ Las respuestas fueron alojadas en diferentes ramas del repositorio. Las ramas di
 En cada una de las ramas, se pueden encontrar los archivos que forman su respectiva respuesta y ademas, en este mismo archivo se extiende para presentar una descripcion del problema, detalles de la implementacion y formas de uso.
 
 ---
+
+## Manejador de Expresiones Booleanas
+
+Para esta pregunta se utilizo el lenguaje de programacion `Python`.
+
+Dado que el ejercicio requiere una interfaz que permita de forma interactiva ingresar comandos, se hizo la implementacion utilizando principios del paradigma de programacion orientado a objetos. Donde, entre las librerias de `Python`, se encuentra una que se puede utilizar para simular una `CMD` o `SHELL` al correr el script, totalmente personalizable.
+
+Se asigno la tarea de implementar un simulador capaz de evaluar **Expresiones Booleanas**, tanto de forma *prefija* como *postfija* y ademas sea capaz mostrar de forma *infija*.
+
+Ademas de la clase del `REPL` encargada de la interfaz interactiva, se creo una clase `BooleanExpression` que es la encargada de manejar todos los procedimientos del manejo de expresiones.
+
+Para correr el programa, simplemente hay que ejecutar el siguiente comando desde el directorio del repositorio:
+```
+python run.py
+```
+
+Esto da inicio al simulador de `REPL`, donde se pueden utilizar los comandos descritos en los requerimientos del programa.
+
+## Pie de Pagina
+
+- En el REPL, todos los comandos son ajenos a __"case insensitive"__.
+
+- Si te sientes agobiado por la cantidad de informacion, prueba a utilizar el comando `clear` :)
+
+- Si quieres conocer la documentacion de un comando, simplemente escribe `help <comando>` en el REPL, o `help`/`?` para conocer la lista de comandos.
