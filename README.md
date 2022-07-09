@@ -22,8 +22,8 @@ manejador de tipos de datos.
 Las respuestas fueron alojadas en diferentes ramas del repositorio. Las ramas disponibles son:
 
 - `pregunta-1`: Contiene la solucion a las preguntas 1(b).
-- `pregunta-2`: Contiene la solucion a la pregunta 3.
-- `pregunta-3`: Contiene la solucion a la pregunta 3.
+- `pregunta-2`: Contiene la solucion a la pregunta 2.
+- `pregunta-3`: Contiene la solucion a la pregunta 3(c).
 - `pregunta-4`: Contiene la solucion a la pregunta 4.
 - `pregunta-5`: Contiene la solucion a la pregunta 5.
 
