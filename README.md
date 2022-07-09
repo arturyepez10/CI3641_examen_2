@@ -30,3 +30,21 @@ Las respuestas fueron alojadas en diferentes ramas del repositorio. Las ramas di
 En cada una de las ramas, se pueden encontrar los archivos que forman su respectiva respuesta y ademas, en este mismo archivo se extiende para presentar una descripcion del problema, detalles de la implementacion y formas de uso.
 
 ---
+
+## Expresiones Bien Parentizadas
+
+Para esta pregunta se utilizo el lenguaje de programacion `Python`.
+
+Se dice que una expresión está **bien parentizada** si todo paréntesis que abre, está asociado a un paréntesis posterior que lo cierra y viceversa.
+
+Por ejemplo, las siguientes son expresiones bien parentizadas:
+```
+(())() () ((()())())(())
+```
+
+Las siguientes **no** son expresiones bien parentizadas:
+```
+(()() ()( (())())))
+```
+
+Se implemento un iterador bienParentizadas que reciba un número `n` y genere todas las expresiones bien parentizadas que se pueden formar con n paréntesis de cada tipo.
