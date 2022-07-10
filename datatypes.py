@@ -18,6 +18,12 @@ class Atomic:
     self.rep = rep
     self.aligned = aligned
 
+  # -------------- DESCRIPTOR --------------
+  def describe(self) -> list[list[str]]:
+    '''Descripcion del tipo ATOMICO.
+    '''
+    return [[self.rep, self.aligned]]
+
   # -------------- DEFINICION DE STRINGS --------------
   def __str__(self) -> str:
     return self.name + ' - ' + self.rep + ' bytes - ' + self.aligned + ' bytes'
@@ -46,6 +52,17 @@ class Struct:
     self.aligned = 0
     for type in struct_types:
       self.rep += type.rep
+
+  # -------------- DESCRIPTOR --------------
+  def describe(self) -> list[list[str]]:
+    '''Descripcion del tipo STRUCT.
+
+    Debe tomar en consideracion de los siguientes casos:
+     - Registros sin empaquetar.
+     - Registros con empaquetamiento.
+     - Registros con reordenamiento de los campos de forma optima (minimizando la memoria, sin violar la alineación).
+    '''
+    return []
 
   # -------------- DEFINICION DE STRINGS --------------
   def __str__(self) -> str:
@@ -81,6 +98,11 @@ class Union:
         self.aligned = type.aligned
       elif type.rep == self.rep and type.aligned > self.aligned:
         self.aligned = type.aligned
+
+  def describe(self) -> list[list[str]]:
+    '''Descripcion del tipo UNION.
+    '''
+    return [[self.rep, self.aligned]]
 
   # -------------- DEFINICION DE STRINGS --------------
   def __str__(self) -> str:
