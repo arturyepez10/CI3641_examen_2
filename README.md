@@ -30,3 +30,26 @@ Las respuestas fueron alojadas en diferentes ramas del repositorio. Las ramas di
 En cada una de las ramas, se pueden encontrar los archivos que forman su respectiva respuesta y ademas, en este mismo archivo se extiende para presentar una descripcion del problema, detalles de la implementacion y formas de uso.
 
 ---
+
+## Manejador de Tipos de Datos
+
+Para esta pregunta se utilizo el lenguaje de programacion `Python`.
+
+Dado que el ejercicio requiere una interfaz que permita de forma interactiva ingresar comandos, se hizo la implementacion utilizando principios del paradigma de programacion orientado a objetos. Donde, entre las librerias de `Python`, se encuentra una que se puede utilizar para simular una `CMD` o `SHELL` al correr el script, totalmente personalizable.
+
+<!-- TODO: resto de la documentacion -->
+
+Para correr el programa, simplemente hay que ejecutar el siguiente comando desde el directorio del repositorio:
+```
+python run.py
+```
+
+Esto da inicio al simulador de `REPL`, donde se pueden utilizar los comandos descritos en los requerimientos del programa.
+
+### Pie de Pagina
+
+- En el REPL, todos los comandos son ajenos a __"case insensitive"__.
+
+- Si te sientes agobiado por la cantidad de informacion, prueba a utilizar el comando `clear` :)
+
+- Si quieres conocer la documentacion de un comando, simplemente escribe `help <comando>` en el REPL, o `help`/`?` para conocer la lista de comandos.
