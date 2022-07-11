@@ -31,12 +31,13 @@ En cada una de las ramas, se pueden encontrar los archivos que forman su respect
 
 ---
 
-## Arbol Binario
+## Numero de Church y Arbol Binario
 
 Para esta pregunta se utilizo el lenguaje de programacion `Yorick`.
 
 La estrutura del directorio es la siguiente:
 
-- `a/`: Contiene todos los archivos de ejemplos para la preguntas 1(a).
+- `a/`: Contiene todos los archivos de ejemplos para la preguntas 1(a), donde se identifica de la siguiente manera:
+  - `church.i`: Contienen el codigo responsable de implementar tipo de numero de church y sus funciones basicas.
 - `b/`: Contiene todos los archivos de ejemplos para la pregunta 1(b), donde se identifican de la siguiente manera:
   - `arbol.i`: Contienen el codigo responsable de implementar el tipo de arbol y la funcion que verifica si es un Max Heap.

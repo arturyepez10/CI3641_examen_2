@@ -1,6 +1,6 @@
 /*--------------- TIPO DE ARBOL ---------------*/
 struct Arbol {
-  int valor;
+  long valor;
   pointer hijo_izq, hijo_der;  
   /*
     Es equivalente decir que el tipo de hijo_izq es Arbol*, a decir que
